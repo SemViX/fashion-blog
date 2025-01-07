@@ -11,6 +11,10 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        'secondary-text':'#666666',
+        'main-text': '#171717',
+        'highlighted': '#C9A96E',
+        'third-text': 'Food & cooking bloger'
       },
     },
   },

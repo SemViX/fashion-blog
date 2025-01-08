@@ -13,3 +13,12 @@ export const SECOND_GALLERY = [
     {image:'/second_gallery_3.png', title:'One of Saturn’s largest rings may be newer than anyone', type:'summer', date:'June 6, 2019', author:'By Rickie Baroch'},
     {image:'/second_gallery_4.png', title:'One of Saturn’s largest rings may be newer than anyone', type:'summer', date:'June 6, 2019', author:'By Rickie Baroch'},
 ]
+
+export const INSTAGRAM_PHOTO = [
+    '/instagram_photo_1.png',
+    '/instagram_photo_2.png',
+    '/instagram_photo_3.png',
+    '/instagram_photo_4.png',
+    '/instagram_photo_5.png',
+    '/instagram_photo_6.png',
+]

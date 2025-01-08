@@ -9,7 +9,7 @@ const HeaderLinks = ({className}:headerLinksProps) => {
   return (
     <ul className={`flex gap-8 ${className}`}>
           {HEADER_LINKS.map((link) => (
-            <li onClick={() => setCurrentPath(link.id)} key={link.id} className={`font-serif text-main-text text-lg font-medium hover:text-secondary-text ${link.id === currenPath && 'text-highlighted'}`}>
+            <li onClick={() => setCurrentPath(link.id)} key={link.id} className={`font-serif text-lg font-medium hover:text-secondary-text ${link.id === currenPath? 'text-highlighted':'text-main-text'}`}>
               <Link href={link.link}>{link.title}</Link>
             </li>
           ))}

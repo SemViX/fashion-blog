@@ -2,6 +2,7 @@ import BigPhoto from "@/components/BigPhoto";
 import Container from "@/components/Container";
 import Gallery from "@/components/Gallery";
 import HeroSection from "@/components/HeroSection";
+import InstagramSection from "@/components/InstagramSection";
 import Pagination from "@/components/Pagination";
 import { FIRST_GALLERY, SECOND_GALLERY } from "@/utils/constants/galleries";
 
@@ -17,6 +18,7 @@ export default function Home() {
           <Pagination/>
         </div>
       </Container>
+      <InstagramSection/>
     </main>
   );
 }

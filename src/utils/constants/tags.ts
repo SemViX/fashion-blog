@@ -1,0 +1,1 @@
+export const TAGS = ['Business', 'Freelance', 'Money', 'Experience', 'Lifestyle', 'SEO', 'Wordpress', 'Marketing', 'UX', 'Modern','Success','Nature']

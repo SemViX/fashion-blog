@@ -27,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${ptSans.variable} ${ptSerif.variable} antialiased`}
+        className={`${ptSans.variable} ${ptSerif.variable} antialiased overflow-x-hidden`}
       >
         <Header/>
         {children}

@@ -5,11 +5,13 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 const ptSans = PT_Sans({
+  subsets: ['latin'],
   weight: ['400', '700'],
   variable: '--font-pt-sans'
 });
 
 const ptSerif = PT_Serif({
+  subsets: ['latin'],
   weight: ['400', '700'],
   variable: '--font-pt-serif'
 });
